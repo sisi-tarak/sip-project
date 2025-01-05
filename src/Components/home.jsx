@@ -1,6 +1,6 @@
 import React from "react";
 
-function home(props) {
+function Home(props) {
   return (
     <>
       <div className="container bg-white-500 flex flex-col lg:flex-row  justify-center ">
@@ -81,4 +81,4 @@ function home(props) {
   );
 }
 
-export default home;
+export default Home;

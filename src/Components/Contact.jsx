@@ -60,7 +60,8 @@ const Contact = () => {
     //   </button>
     // </div>
 
-    <div>{data ? data.title : "Loading..."}.</div>
+    // <div>{data ? data.title : "Loading..."}.</div>
+    <h1 className="text-gray-900 text-3xl font-bold p-10">Contact Page</h1>
   );
 };
 

@@ -1,9 +1,10 @@
-import Nav from "./Components/Nav.jsx";
-import Home from "./Components/home.jsx";
-import Contact from "./Components/Contact.jsx";
-import About from "./Components/About.jsx";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NotFound from "./Components/NotFound.jsx";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Nav from "./Components/Nav";
+import Footer from "./Components/Footer";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import NotFound from "./Components/NotFound";
+import Home from "./Components/home";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -1,8 +1,8 @@
-# React + Vite
+# Training data
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 05.01.2025
 
-Currently, two official plugins are available:
+    Covered the topics of Tailwind config file as well as the Routing conept by performing on the navigation bar.
+    Learned how to use the `Link` component from the React Router library to navigate between routes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Task: To create a Navigation bar along with the routing configuration and should be in the middle by using flex layout.
